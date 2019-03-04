@@ -230,7 +230,7 @@ export default {
     },
   },
 
-  data() {
+  data: function() {
     return {
       select: this.startAt,
       lightBoxOn: this.showLightBox,
